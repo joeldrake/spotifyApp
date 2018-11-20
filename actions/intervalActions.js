@@ -9,6 +9,8 @@ export function initiateIntervalTimer(songSettingValues) {
   return async (dispatch, getState) => {
     await dispatch(resetIntervalTimer());
 
+    console.log(songSettingValues);
+
     const {
       timeUntilNext,
       timeBetween,

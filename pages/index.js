@@ -81,8 +81,10 @@ class Index extends React.Component {
       console.log('next song playing');
     }, 500);
 
+    console.log(timer);
+
     if (intervalTimer) {
-      this.props.dispatch(initiateIntervalTimer(timer));
+      //this.props.dispatch(initiateIntervalTimer(timer));
     }
   };
 
