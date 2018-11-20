@@ -1,0 +1,65 @@
+:root {
+  --textColor: #ffffff;
+  --linkColor: #4eca89;
+  --themeColor: #4eca89;
+  --backgroundColor: #222222;
+  --lightGrey: #f9f7f7;
+}
+
+.timerWrapper {
+  margin-bottom: 20px;
+}
+
+.timerCounter {
+  line-height: 50px;
+  margin: 20px;
+}
+
+.songSettingsInputsWrapper {
+  max-width: 500px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bpmInputsWrapper {
+  max-width: 380px;
+  margin-bottom: 20px;
+}
+
+.songSettingsInputWrapper {
+  text-align: center;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.songSettingsInputWrapper:first-child {
+  padding-left: 0;
+}
+
+.songSettingsInputWrapper:last-child {
+  padding-right: 0;
+}
+
+.songSettingsInputsWrapper label {
+  display: inline-block;
+  font-size: 0.65em;
+  padding: 0 0 15px 0;
+}
+
+.songSettingsInputsWrapper input {
+  text-align: center;
+  max-width: 100px;
+  margin: 0 auto 7px auto;
+}
+
+.subInfo {
+  font-size: 0.65em;
+  opacity: 0.4;
+}
+
+.bpmInputsWrapper .songSettingsInputWrapper {
+  min-width: 70px;
+}

@@ -1,0 +1,37 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "autoprefixer": "^9.1.0",
+    "cookies": "^0.7.2",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.3",
+    "isomorphic-unfetch": "^2.1.1",
+    "js-cookie": "^2.2.0",
+    "moment": "^2.22.2",
+    "next": "^7.0.0",
+    "next-redux-wrapper": "^2.0.0",
+    "nosleep.js": "^0.7.0",
+    "postcss-cli": "^6.0.0",
+    "postcss-css-variables": "^0.9.0",
+    "postcss-preset-env": "^5.3.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-moment": "^0.7.9",
+    "react-pose": "^3.3.6",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.3.0"
+  },
+  "now": {
+    "name": "spotifyapp",
+    "alias": "spotifyapp.now.sh",
+    "dotenv": true
+  }
+}

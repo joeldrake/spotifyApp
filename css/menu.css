@@ -1,0 +1,51 @@
+:root {
+  --textColor: #ffffff;
+  --linkColor: #4eca89;
+  --themeColor: #4eca89;
+  --backgroundColor: #222222;
+  --lightGrey: #f9f7f7;
+}
+
+.menuBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 1px solid var(--lightGrey);
+  overflow: hidden;
+}
+
+.menuBtnImg {
+  width: 100%;
+}
+
+.menuWrapper {
+  z-index: 10;
+  position: absolute;
+  width: calc(100% - 40px);
+  max-width: 200px;
+  top: 60px;
+  right: 20px;
+  transform-origin: top right;
+  background-color: var(--textColor);
+  color: var(--backgroundColor);
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.4);
+}
+
+.menuWrapper:after {
+  z-index: 9;
+  content: '';
+  position: absolute;
+  display: block;
+  top: -3px;
+  right: 7px;
+  width: 16px;
+  height: 16px;
+  transform: rotate(45deg);
+  background-color: var(--textColor);
+}

@@ -1,0 +1,47 @@
+:root {
+  --textColor: #ffffff;
+  --linkColor: #4eca89;
+  --themeColor: #4eca89;
+  --backgroundColor: #222222;
+  --lightGrey: #f9f7f7;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 42px;
+  font-size: 1.1em;
+  font-weight: normal;
+  font-family: 'semplicita_proregular', sans-serif;
+  line-height: 1.42857143;
+  color: var(--backgroundColor);
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  border-radius: 25px;
+}
+
+.form-control::placeholder {
+  color: #cccccc;
+}
+
+textarea.form-control {
+  height: auto;
+}
+
+.form-control:disabled {
+  color: var(--grey);
+  background: var(--lightGrey);
+  cursor: default;
+}
+
+.form-control:disabled::placeholder {
+  color: var(--lightGrey);
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 157, 255, 0.7);
+}

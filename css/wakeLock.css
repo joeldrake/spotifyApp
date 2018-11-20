@@ -1,0 +1,6 @@
+.wakeLockWrapper {
+  position: absolute;
+  top: 21px;
+  left: 20px;
+  font-size: 0.8em;
+}
